@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MAHH WEBSITE</title>
+</head>
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownclick">
+            <li><a href="#home">home</a></li>
+            <li><a href="#login">login</a></li>
+            <li><a href="#about">about</a></li>
+            <li class="topnav-right"><a href="#contacts">contacts</a></li>
+            <li class="topnav-right"><a href="#details">details</a></li>
+            <li class="dropdownicon"><a href="javascript:void(0);" onclick="dropdownmenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+    <div class="container" id="sectionn-1-gradient">
+        <div class="row">
+            <div class="col-6">
+                <div class="leftside-col">
+                    <h1 class="large">ABES ENGINEERING COLLEGE</h1>
+                    <h1 class="large">CROSSING REPUBLIK GHAZIABAD</h1>
+                </div>
+                <form>
+                    <div class="leftside-col">
+                        <h2>NAME</h2>
+                        <input class="inputbox" name="username" type="text" placeholder="username">
+                        <h2>MOBILE NUMBER</h2>
+                        <input class="inputbox" name="mobile" type="text" placeholder="mobile">
+                    </div>
+                </form>
+            </div>
+            <div class="col-6">
+                <div class="rightside-col">
+                    <div class="videocontainer">
+                        <iframe width="560" height="315" src="<iframe width="560" height="315" src="https://www.youtube.com/embed/LlN8MPS7KQs?si=6p0vmclBVPLPRXpV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <h1 class="section2header">WELCOME TO ABES WEBSITE</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                       <img src="aktu2.png" alt="">
+                    </div>
+                    <label for="">AKTU AFFILIATED</label>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio blanditiis nemo architecto iure, non molestiae at. Perferendis aspernatur obcaecati unde reprehenderit enim. Est, minima voluptas ea incidunt harum voluptates porro.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                       <img src="aktu2.png" alt="">
+                    </div>
+                    <label for="">UGC APPROVED</label>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio blanditiis nemo architecto iure, non molestiae at. Perferendis aspernatur obcaecati unde reprehenderit enim. Est, minima voluptas ea incidunt harum voluptates porro.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                       <img src="aktu2.png" alt="">
+                    </div>
+                    <label for="">AICTE APPROVED</label>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio blanditiis nemo architecto iure, non molestiae at. Perferendis aspernatur obcaecati unde reprehenderit enim. Est, minima voluptas ea incidunt harum voluptates porro.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button class="feelfree">FEEL FREE TO CONTACT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container2">
+        <div class="row">
+            <div class="col-7">
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis iure reiciendis neque facere possimus, voluptatum, maxime voluptates consequatur quod maiores eius perspiciatis praesentium, rerum rem iusto! Fugiat eum doloribus quo.</p>
+                </article>
+            </div>
+            <div class="col-5">
+               <div class="dark">
+                   <img src="dark.jpg" alt="">
+                </div>
+        </div>
+    </div>
+      
+   <hr>
+    
+<footer class="foot">
+    <div class="row">
+        <div class="col-3 mobilestack">
+            <h1>College</h1>
+            <ul>
+                <li>about</li>
+                <li>blog</li>
+                <li>career</li>
+            </ul>
+        </div>
+        <div class="col-3 mobilestack">
+            <h1>College</h1>
+            <ul>
+                <li>about</li>
+                <li>blog</li>
+                <li>career</li>
+            </ul>
+        </div>
+        <div class="col-3 mobilestack">
+            <h1>College</h1>
+            <ul>
+                <li>about</li>
+                <li>blog</li>
+                <li>career</li>
+            </ul>
+        </div>
+        <div class="col-3 mobilestack">
+            <h1>College</h1>
+            <ul>
+                <li>about</li>
+                <li>blog</li>
+                <li>career</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+    <script>
+        function dropdownmenu(){
+            var x = document.getElementById("dropdownclick");
+            if(x.className === "topnav"){
+                x.className += " responsive";
+                /*changing topnav to topnav.responsive*/
+            }
+            else{
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>
